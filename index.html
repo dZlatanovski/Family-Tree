@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">    
+    <title>Homework</title>
+</head>
+
+<body>
+    <div class="container" id="mainContainer">
+        <h1>Enter person info</h1>
+        <form action="" id="newPersonForm">
+            <div class="row">
+                    <div class="col-md-6 offset-3">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" maxlength="20">
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-6 offset-3">
+                        <label for="surname">Surname:</label>
+                        <input type="text" id="surname" name="surname" maxlength="20">
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-6 offset-3">
+                        <label for="age">Age:</label>
+                        <input type="text" id="age" name="age" maxlength="3">
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-6 offset-3">
+                        <label for="gender">Gender:</label>
+                        <select name="gender" id="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-6 offset-3">
+                        <label for="role">Family role:</label>
+                        <select name="role" id="role">
+                            <option value="son">Son</option>
+                            <option value="daughter">Daughter</option>
+                            <option value="father">Father</option>
+                            <option value="mother">Mother</option>                            
+                        </select>
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-6 offset-3">
+                        <label for="height">Height:</label>
+                        <input type="text" id="height" name="height" maxlength="3">
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-6 offset-3">
+                        <label for="weight">Weight:</label>
+                        <input type="text" id="weight" name="weight" maxlength="3">
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-6 offset-3">
+                        <label for="eyeColor">Eye color:</label>
+                        <select name="eyeColor" id="eyeColor">
+                                <option value="green">Green</option>
+                                <option value="blue">Blue</option>
+                                <option value="gray">Gray</option>
+                                <option value="hazel">Hazel</option>                                
+                                <option value="brown">Brown</option>
+                                <option value="heterochromia">Heterochromia</option>                       
+                        </select>
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-6 offset-3">
+                        <label for="hairColor">Hair color:</label>
+                        <input type="text" id="hairColor" name="hairColor" maxlength="20">
+                    </div>
+            </div>
+            <div class="row">
+                <div class="col-6 offset-3 submitCol">
+                        <input type="submit" class="submitButton submitButtonPerson btn btn-primary btn-lg btn-block" value="Submit">
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+    
+</body>
+
+</html>

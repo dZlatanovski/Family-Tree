@@ -1,0 +1,63 @@
+.container h1{
+    width: fit-content;
+    margin: 0 auto;
+}
+form input{
+    width: 100%;
+}
+select{
+    width: 100%;
+}
+.submitButton{
+    margin-top: 5%;
+}
+
+.firstPersonDiv{
+    margin-top: 10%;
+}
+
+h2{
+    width: max-content;
+    color: rgb(4, 87, 119);
+    margin-bottom: 3%;
+}
+
+h4{
+    color: rgba(5, 92, 44, 0.829);
+}
+
+ul{
+    display: inline-block;
+}
+
+hr{
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.familyMembersDiv{
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.special{
+    margin-right: .5%;
+}
+
+.hide{
+    display: none;
+}
